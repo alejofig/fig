@@ -1,0 +1,125 @@
+---
+---
+
+<section class="how-it-works">
+	<div class="container">
+		<div class="section-header">
+			<h2 class="section-title">Así de <span class="accent">simple</span></h2>
+			<p class="section-subtitle">Tres pasos para tomar el control de tus finanzas</p>
+		</div>
+		
+		<div class="steps-grid">
+			<div class="step-card">
+				<div class="step-number">01</div>
+				<h3>Conecta tu cuenta</h3>
+				<p>Permite acceso a las notificaciones bancarias para capturar transacciones automáticamente.</p>
+			</div>
+			
+			<div class="step-card">
+				<div class="step-number">02</div>
+				<h3>Déjalo trabajar</h3>
+				<p>La app captura, categoriza y organiza todas tus transacciones sin que muevas un dedo.</p>
+			</div>
+			
+			<div class="step-card">
+				<div class="step-number">03</div>
+				<h3>Explora tus datos</h3>
+				<p>Conversa con tu asistente de IA sobre tus gastos, ahorros y metas financieras.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 2rem;
+	}
+
+	.how-it-works {
+		padding: 6rem 0;
+	}
+
+	.section-header {
+		text-align: center;
+		max-width: 700px;
+		margin: 0 auto 4rem;
+	}
+
+	.section-title {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-bottom: 1rem;
+		letter-spacing: -0.02em;
+	}
+
+	.accent {
+		color: var(--color-accent);
+	}
+
+	.section-subtitle {
+		font-size: 1.125rem;
+		color: var(--color-gray);
+		line-height: 1.7;
+	}
+
+	.steps-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+	}
+
+	.step-card {
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 20px;
+		padding: 2.5rem;
+		position: relative;
+		transition: all 0.3s ease;
+	}
+
+	.step-card:hover {
+		background: rgba(59, 130, 246, 0.05);
+		border-color: rgba(59, 130, 246, 0.2);
+		transform: translateY(-4px);
+	}
+
+	.step-number {
+		font-size: 3rem;
+		font-weight: 700;
+		background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-secondary) 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		margin-bottom: 1.5rem;
+		line-height: 1;
+	}
+
+	.step-card h3 {
+		font-size: 1.5rem;
+		font-weight: 600;
+		margin-bottom: 1rem;
+		color: white;
+	}
+
+	.step-card p {
+		color: var(--color-gray);
+		line-height: 1.6;
+	}
+
+	@media (max-width: 968px) {
+		.how-it-works {
+			padding: 4rem 0;
+		}
+
+		.section-title {
+			font-size: 2rem;
+		}
+
+		.steps-grid {
+			grid-template-columns: 1fr;
+			gap: 1.5rem;
+		}
+	}
+</style>

@@ -1,0 +1,203 @@
+---
+---
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer-content">
+			<div class="footer-brand">
+				<div class="logo">
+					<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<rect width="32" height="32" rx="8" fill="url(#gradient-footer)" />
+						<path d="M16 8L22 12V20L16 24L10 20V12L16 8Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+						<defs>
+							<linearGradient id="gradient-footer" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#3B82F6"/>
+								<stop offset="1" stop-color="#8B5CF6"/>
+							</linearGradient>
+						</defs>
+					</svg>
+					<span>Fig</span>
+				</div>
+				<p class="footer-description">Habla con tu asistente de IA para entender tus gastos.</p>
+			</div>
+			
+			<div class="footer-links">
+				<div class="link-group">
+					<h4>Producto</h4>
+					<a href="#">Características</a>
+					<a href="#">Precios</a>
+					<a href="#">Descargar</a>
+				</div>
+				
+				<div class="link-group">
+					<h4>Soporte</h4>
+					<a href="#">Ayuda</a>
+					<a href="#">Contacto</a>
+					<a href="#">FAQ</a>
+				</div>
+				
+				<div class="link-group">
+					<h4>Legal</h4>
+					<a href="#">Privacidad</a>
+					<a href="#">Términos</a>
+					<a href="#">Seguridad</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<p>&copy; 2025 Fig. Todos los derechos reservados.</p>
+			<div class="made-by">
+				<span>Hecho por:</span>
+				<a href="https://www.alejofig.com/" target="_blank" rel="noopener noreferrer" aria-label="Sitio web de Alejofig">
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+						<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+					</svg>
+				</a>
+				<a href="https://www.linkedin.com/in/alejofig/?locale=en_US" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Alejofig">
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+						<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<style>
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 2rem;
+	}
+
+	.footer {
+		padding: 4rem 0 2rem;
+		border-top: 1px solid rgba(255, 255, 255, 0.05);
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.footer-content {
+		display: grid;
+		grid-template-columns: 1.5fr 2fr;
+		gap: 4rem;
+		margin-bottom: 3rem;
+	}
+
+	.footer-brand {
+		max-width: 300px;
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		font-size: 1.125rem;
+		font-weight: 600;
+		color: white;
+		margin-bottom: 1rem;
+	}
+
+	.footer-description {
+		color: var(--color-gray);
+		line-height: 1.6;
+		font-size: 0.9375rem;
+	}
+
+	.footer-links {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+	}
+
+	.link-group h4 {
+		font-size: 0.875rem;
+		font-weight: 600;
+		color: white;
+		margin-bottom: 1rem;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+	}
+
+	.link-group a {
+		display: block;
+		color: var(--color-gray);
+		text-decoration: none;
+		margin-bottom: 0.75rem;
+		font-size: 0.9375rem;
+		transition: color 0.2s ease;
+	}
+
+	.link-group a:hover {
+		color: var(--color-accent);
+	}
+
+	.footer-bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 2rem;
+		border-top: 1px solid rgba(255, 255, 255, 0.05);
+	}
+
+	.footer-bottom p {
+		color: var(--color-gray);
+		font-size: 0.875rem;
+	}
+
+	.made-by {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+	}
+
+	.made-by span {
+		color: var(--color-gray);
+		font-size: 0.875rem;
+	}
+
+	.made-by a {
+		width: 36px;
+		height: 36px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 8px;
+		color: var(--color-gray);
+		transition: all 0.3s ease;
+		text-decoration: none;
+	}
+
+	.made-by a:hover {
+		background: rgba(59, 130, 246, 0.1);
+		border-color: var(--color-accent);
+		color: var(--color-accent);
+		transform: translateY(-2px);
+	}
+
+	@media (max-width: 968px) {
+		.footer-content {
+			grid-template-columns: 1fr;
+			gap: 2rem;
+		}
+
+		.footer-links {
+			grid-template-columns: 1fr;
+			gap: 2rem;
+		}
+
+		.footer-bottom {
+			flex-direction: column;
+			gap: 1.5rem;
+			justify-content: center;
+			text-align: center;
+		}
+
+		.made-by {
+			justify-content: center;
+		}
+	}
+</style>

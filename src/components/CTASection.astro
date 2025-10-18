@@ -1,0 +1,106 @@
+---
+---
+
+<section class="cta-section">
+	<div class="container">
+		<div class="cta-content">
+			<h2 class="cta-title">Comienza a organizar tus finanzas hoy</h2>
+			<p class="cta-text">Únete a miles de usuarios que ya transformaron su vida financiera</p>
+			<a href="#" class="cta-button">
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+					<polyline points="7 10 12 15 17 10"></polyline>
+					<line x1="12" y1="15" x2="12" y2="3"></line>
+				</svg>
+				Descargar para Android
+			</a>
+			<p class="coming-soon">📱 iOS disponible próximamente</p>
+		</div>
+	</div>
+</section>
+
+<style>
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 2rem;
+	}
+
+	.cta-section {
+		padding: 6rem 0;
+		background: linear-gradient(180deg, transparent 0%, rgba(59, 130, 246, 0.05) 100%);
+	}
+
+	.cta-content {
+		text-align: center;
+		max-width: 700px;
+		margin: 0 auto;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 32px;
+		padding: 4rem 3rem;
+	}
+
+	.cta-title {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-bottom: 1rem;
+		letter-spacing: -0.02em;
+	}
+
+	.cta-text {
+		font-size: 1.125rem;
+		color: var(--color-gray);
+		margin-bottom: 2.5rem;
+		line-height: 1.7;
+	}
+
+	.cta-button {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.75rem;
+		padding: 1.125rem 2.5rem;
+		background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-secondary) 100%);
+		color: white;
+		text-decoration: none;
+		border-radius: 12px;
+		font-weight: 600;
+		font-size: 1.0625rem;
+		transition: all 0.3s ease;
+		box-shadow: 0 4px 20px rgba(var(--color-accent-rgb), 0.3);
+	}
+
+	.cta-button:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 6px 30px rgba(var(--color-accent-rgb), 0.4);
+	}
+
+	.coming-soon {
+		margin-top: 1.5rem;
+		color: var(--color-gray);
+		font-size: 0.9375rem;
+	}
+
+	@media (max-width: 968px) {
+		.cta-section {
+			padding: 4rem 0;
+		}
+
+		.cta-content {
+			padding: 3rem 2rem;
+		}
+
+		.cta-title {
+			font-size: 2rem;
+		}
+
+		.cta-text {
+			font-size: 1rem;
+		}
+
+		.cta-button {
+			width: 100%;
+			justify-content: center;
+		}
+	}
+</style>
